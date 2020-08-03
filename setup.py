@@ -18,7 +18,7 @@ test_requirements = ['pytest>=3', ]
 
 setup(
     author="DermAI Research Team",
-    author_email='ekaba.bisong@siliconblast.com',
+    author_email='ekaba.bisong@siliconblast.com, trishathompson311@gmail.com',
     python_requires='>=3.5',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -31,7 +31,8 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Ranked classification of lesions in skin of color with deep neural networks using transfer learning and patch transformation with computer vision and GANs.",
+    description="Ranked classification of lesions in skin of color with deep neural networks using transfer learning "
+                "and patch transformation with computer vision and GANs.",
     entry_points={
         'console_scripts': [
             'dermai=dermai.cli:main',
