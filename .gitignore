@@ -108,3 +108,4 @@ ENV/
 .idea
 .github
 data/
+.DS_Store
