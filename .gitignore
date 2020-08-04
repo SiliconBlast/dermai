@@ -108,4 +108,5 @@ ENV/
 .idea
 .github
 data/
+assets/
 .DS_Store
